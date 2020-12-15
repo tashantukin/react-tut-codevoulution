@@ -14,14 +14,14 @@ import NameList from './components/NameList'
 import StyleSheet from './components/StyleSheet'
 import Inline from './components/Inline'
 import './components/appStyles.css'
-import styles from'./components/appStyles.module.css'
+import styles from './components/appStyles.module.css'
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <h1 className='error'>Error</h1>
-      <h1 className={styles.success}>Success</h1>
- <Inline />
+     
+ {/* <Inline /> */}
       {/* <StyleSheet primary={false}/> */}
       {/* <Message ></Message> */}
       {/* <Counter /> */}
@@ -55,6 +55,8 @@ function App() {
 
       {/* <NameList /> */}
 
+     
+<Form />
     </div>
   );
 }
